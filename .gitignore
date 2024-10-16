@@ -45,3 +45,6 @@ app.*.map.json
 # Generated files
 *.g.dart
 *.freezed.dart
+
+# The index folder
+index/
