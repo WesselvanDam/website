@@ -1,9 +1,9 @@
 ---
 title: The AEGEE-Leiden App
 description: The AEGEE-Leiden App is a mobile app for both iOS and Android made with the Flutter framework. It is the biggest coding project I have worked on to date.
-start_date: 2020-09-01
-end_date: 2022-05-24
-modified_date: null
+startDate: 2020-09-01
+endDate: 2022-05-24
+modifiedDate: null
 image: null
 location: Leiden, The Netherlands
 tags: [Mobile App Development, Web Development]

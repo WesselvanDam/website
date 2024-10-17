@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
+import '../../constants/category.dart';
 import 'routes.dart';
 
 part 'router.g.dart';
@@ -16,6 +17,7 @@ GoRouter router(RouterRef ref) {
     navigatorKey: key,
     initialLocation: initialLocation,
     routes: $appRoutes,
+    redirect: redirect,
   );
   ref.onDispose(router.dispose);
 
@@ -23,4 +25,16 @@ GoRouter router(RouterRef ref) {
 }
 
 @riverpod
-String initialLocation(InitialLocationRef ref) => '/splash';
+String initialLocation(InitialLocationRef ref) => '/';
+
+String? redirect(BuildContext context, GoRouterState state) {
+  if (state.pathParameters.containsKey('category')) {
+    try {
+      PostCategory.values
+          .firstWhere((e) => e.toString() == state.pathParameters['category']);
+    } catch (e) {
+      return '/';
+    }
+  }
+  return null;
+}

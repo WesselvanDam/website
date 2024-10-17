@@ -45,6 +45,8 @@ def main():
                 continue
             
             frontmatter = parse_frontmatter(index_file)
+            frontmatter['slug'] = post
+            frontmatter['category'] = category
             if post in featured:
                 featured_array.append(frontmatter)
             json_array.append(frontmatter)

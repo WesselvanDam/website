@@ -4,9 +4,9 @@ description:
   A Thank You Token is a small object with little intrinsic value that
   you gift to someone after a meaningful interaction, as a way to express your
   gratitude. It's a concept I came up with to thank the important people in my life.
-start_date: 2024-05-09
-end_date: 2024-09-30
-modified_date: null
+startDate: 2024-05-09
+endDate: 2024-09-30
+modifiedDate: null
 image: null
 location: Leiden, The Netherlands
 tags: [Web Development, Web Design, Concept Development]
