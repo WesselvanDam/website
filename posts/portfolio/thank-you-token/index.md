@@ -20,3 +20,6 @@ The Thank You Token is even simpler: it could be anything really, something smal
 
 To help people get started, I created a website explaining the concept, as well as a web app where users can keep a picture of the tokens they have received along with the story behind it. It was a fun project that required me to work with a variety of tools. Feel free to check it out, make a token yourself, and give it to someone you care about :)
 
+Include an image:
+![banner](https://raw.githubusercontent.com/WesselvanDam/website/5fec031978025fb9eea5fcbc632cd5de65b6d0a2/posts/portfolio/thank-you-token/mockup.jpg)
+
