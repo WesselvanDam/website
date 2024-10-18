@@ -6,7 +6,7 @@ import '../constants/category.dart';
 part 'content.g.dart';
 
 /// Loads the content of a post from a markdown file.
-/// 
+///
 /// Usage:
 /// ```dart
 /// final postContent = ref.watch(contentProvider(category, slug));
