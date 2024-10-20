@@ -20,12 +20,6 @@ class MarkdownViewer extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    debugPrint(
-      Uri.parse(
-        'https://raw.githubusercontent.com/WesselvanDam/website/refs/heads/main/posts/' +
-            'https://raw.githubusercontent.com/WesselvanDam/website/5fec031978025fb9eea5fcbc632cd5de65b6d0a2/posts/portfolio/thank-you-token/mockup.jpg',
-      ).toString(),
-    );
     return Markdown(
       data: data,
       onTapLink: (text, href, title) {
@@ -38,8 +32,34 @@ class MarkdownViewer extends ConsumerWidget {
           context.go(href);
         }
       },
-      imageDirectory:
-          'https://raw.githubusercontent.com/WesselvanDam/website/refs/heads/main/posts/$category/$slug/',
+      imageBuilder: (uri, title, alt) {
+        String imageUri;
+
+        if (uri.scheme == 'http' || uri.scheme == 'https') {
+          imageUri = uri.toString();
+        } else {
+          imageUri =
+              'https://raw.githubusercontent.com/WesselvanDam/website/refs/heads/main/posts/$category/$slug/$uri';
+        }
+        return ClipRRect(
+          borderRadius: BorderRadius.circular(16),
+          child: Image.network(
+            imageUri,
+            frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+              if (wasSynchronouslyLoaded) {
+                return child;
+              } else {
+                return AnimatedOpacity(
+                  opacity: frame == null ? 0 : 1,
+                  duration: const Duration(seconds: 1),
+                  curve: Curves.easeOut,
+                  child: child,
+                );
+              }
+            },
+          ),
+        );
+      },
     );
   }
 }

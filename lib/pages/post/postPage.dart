@@ -20,7 +20,8 @@ class PostPage extends ConsumerWidget {
         title: const Text('Post'),
       ),
       body: postContent.when(
-        data: (data) => MarkdownViewer(data: data),
+        data: (data) =>
+            MarkdownViewer(data: data, category: category, slug: slug),
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (error, stackTrace) {
           debugPrint('Error: $error, $stackTrace');

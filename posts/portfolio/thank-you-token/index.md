@@ -7,7 +7,7 @@ description:
 startDate: 2024-05-09
 endDate: 2024-09-30
 modifiedDate: null
-image: null
+image: banner.jpg
 location: Leiden, The Netherlands
 tags: [Web Development, Web Design, Concept Development]
 ---
@@ -22,6 +22,4 @@ The Thank You Token is even simpler: it could be anything really, something smal
 
 # The Project
 To help people get started, I created a [website](https://thank-you-token.nl "Thank You Token Website") explaining the concept, as well as a [web app](https://app.thank-you-token.nl "Thank You Token App") where users can keep a picture of the tokens they have received along with the story behind it. It was a fun project that required me to work with a variety of tools. Feel free to check it out, make a token yourself, and give it to someone you care about :)
-
-![banner](mockup.jpg)
 

@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../constants/category.dart';
-import '../../providers/content.dart';
 import '../../providers/posts.dart';
 import '../../services/router/routes.dart';
 
@@ -17,6 +16,13 @@ class HomePage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.navigate_next),
+            onPressed: () => context
+                .go(PostsRoute(category: PostCategory.featured).location),
+          ),
+        ],
       ),
       body: posts.when(
         data: (data) {
