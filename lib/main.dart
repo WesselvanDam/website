@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
+import 'constants/theme.dart';
 import 'services/router/router.dart';
 
 void main() {
@@ -17,7 +18,10 @@ class WebsiteApp extends ConsumerWidget {
     final router = ref.watch(routerProvider);
 
     return MaterialApp.router(
+      title: "Wessel's Website",
+      debugShowCheckedModeBanner: false,
       routerConfig: router,
+      theme: themeData(context),
     );
   }
 }
