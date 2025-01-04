@@ -1,0 +1,16 @@
+<nav class="container mx-auto px-16 bg-slate-400">
+  <ol class="flex justify-center items-center *:flex-1">
+    <li class="text-lg font-semibold">
+      <a href="/">Home</a>
+    </li>
+    {{/*  Create empty space between Home and the other items */}}
+    <li class="flex-grow"></li>
+    {{ range .Site.Menus.main.ByWeight }}
+    <li class="hover:bg-slate-500 justify-center text-center">
+      <a href="{{ .URL }}" class="text-lg font-semibold block py-8 w-full">
+        {{ .Title }}
+      </a>
+    </li>
+    {{ end }}
+  </ol>
+</nav>

@@ -1,0 +1,20 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+
+params:
+  author: "Your Name"
+  description: "A brief description of your site"
+  github: "https://github.com/yourusername"
+
+sectionPagesMenu: "main"
+
+permalinks:
+  posts: "/:year/:month/:day/:title/"
+
+
+# The following lines ensure that the latest Tailwind CSS is used when changes are made to the layout files
+build:
+  cachebusters:
+    - source: layouts/.*
+      target: css
