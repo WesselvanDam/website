@@ -1,16 +1,26 @@
-<nav class="container mx-auto px-16 bg-slate-400">
-  <ol class="flex justify-center items-center *:flex-1">
-    <li class="text-lg font-semibold">
-      <a href="/">Home</a>
+<nav class="fixed z-100 mx-auto px-4 md:px-16 lg:px-8 inset-x-0 top-8">
+  <ol class="h-20 max-w-7xl mx-auto px-8 flex items-center justify-between bg-neutral-50 rounded-xl shadow-lg text-xl font-display font-medium *:hover:font-bold *:transition-all ">
+    <li class="flex-none w-48">
+      <a href="/">{{ partial "components/logo.html" (dict "color" "#171717") }}</a>
     </li>
     {{/*  Create empty space between Home and the other items */}}
-    <li class="flex-grow"></li>
+    <li class="flex-initial w-88"></li>
     {{ range .Site.Menus.main.ByWeight }}
-    <li class="hover:bg-slate-500 justify-center text-center">
-      <a href="{{ .URL }}" class="text-lg font-semibold block py-8 w-full">
+    {{ $colors := dict
+      "content" ""
+      "career" ""
+      "portfolio" ""
+      "thoughts" ""
+    }}
+    {{ $color := index $colors (lower .Name) }}
+    <li class="justify-center text-center basis-24 lg:basis-32 shrink-0 text-neutral-600 max-md:hidden">
+      <a href="{{ .URL }}" class=" block h-full w-full {{ $color }} ">
         {{ .Title }}
       </a>
     </li>
+    <button>
+
+    </button>
     {{ end }}
   </ol>
 </nav>

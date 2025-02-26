@@ -1,0 +1,7 @@
+<span data-date class="text-neutral-600 text-sm">
+  {{ if .Params.endDate }}
+    {{ .Date.Format "Jan 2006" }} ‧ {{ (time.Format "Jan 2006" .Params.endDate) }}
+  {{ else }}
+    {{ .Date.Format "Jan 2006" }}
+  {{ end }}
+</span>

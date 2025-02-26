@@ -1,3 +1,7 @@
 {{ define "main" }}
-  Section
+  {{ $posts := slice }}
+  {{ range .Pages }}
+      {{ $posts = $posts | append .RelPermalink }}
+  {{ end }}
+  {{ partial "collection/collection.html" (dict "Context" . "Posts" $posts ) }}
 {{ end }}

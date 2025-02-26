@@ -1,0 +1,8 @@
+{{ $colors := dict
+  "content" "group-hover:text-content-900"
+  "career" "group-hover:text-career-900"
+  "portfolio" "group-hover:text-portfolio-900"
+  "thoughts" "group-hover:text-thoughts-900"
+}}
+{{ $color := index $colors (lower .Section) }}
+<h1 data-title class="mr-8 text-neutral-900 font-medium font-display tracking-tight text-2xl text-pretty">{{ .Title }}</h1>

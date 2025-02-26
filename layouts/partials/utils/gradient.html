@@ -1,0 +1,21 @@
+{{- $titleLen := len .Title -}}
+{{- $summaryLen := len .Summary -}}
+
+{{- $combinedLen := mod (add (mul $titleLen $summaryLen) (mul (add $titleLen $summaryLen) 7)) 1000 -}}
+{{- $color1Hue := mod $combinedLen 360 -}}
+{{- $color2Hue := mod (add $combinedLen 60) 360 -}}
+
+{{- $color1 := printf "hsl(%d, 100%%, 90%%)" $color1Hue -}}
+{{- $color2 := printf "hsl(%d, 100%%, 90%%)" $color2Hue -}}
+
+{{- $width := 1600 -}}
+{{- $height := 900 -}}
+
+<svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="{{ .Title | urlize }}" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="{{ $color1 }}" />
+    <stop offset="100%" stop-color="{{ $color2 }}" />
+  </linearGradient>
+  <rect width="100%" height="100%" fill="url(#{{ .Title | urlize }})" />
+  {{ .Title }}
+</svg>

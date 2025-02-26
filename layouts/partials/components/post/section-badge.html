@@ -1,0 +1,15 @@
+{{ $colors := dict
+  "content" "text-content-900"
+  "career" "text-career-900"
+  "portfolio" "text-portfolio-900"
+  "thoughts" "text-thoughts-900"
+}}
+{{ $color := index $colors .Section }}
+<span data-section-badge
+  class="{{ $color }} font-semibold text-base">
+  {{ if page.IsHome }}
+    {{ .Section | upper }}
+  {{ else }}
+    {{ index .Keywords 0 | upper }}
+  {{ end }}
+</span>

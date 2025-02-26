@@ -1,0 +1,7 @@
+<header  class="aspect-[2/1] overflow-hidden flex items-center">
+  {{ with partial "utils/banner.html" . }}
+  <img src="{{ .srcWide }}" alt="{{ .alt }}" class="w-full">
+  {{ else }}
+    {{ partial "utils/gradient.html" . }}
+  {{ end }}
+</header>

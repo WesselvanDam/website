@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+@theme {
+  --default-font-family: 'AtkinsonHyperlegible', sans-serif;
+  --font-display: 'Geologica', sans-serif;
+
+  --color-portfolio-50: var(--color-rose-50);
+  --color-portfolio-100: var(--color-rose-100);
+  --color-portfolio-200: var(--color-rose-200);
+  --color-portfolio-300: var(--color-rose-300);
+  --color-portfolio-400: var(--color-rose-400);
+  --color-portfolio-500: var(--color-rose-500);
+  --color-portfolio-600: var(--color-rose-600);
+  --color-portfolio-700: var(--color-rose-700);
+  --color-portfolio-800: var(--color-rose-800);
+  --color-portfolio-900: var(--color-rose-900);
+  --color-portfolio-950: var(--color-rose-950);
+
+  --color-career-50: var(--color-sky-50);
+  --color-career-100: var(--color-sky-100);
+  --color-career-200: var(--color-sky-200);
+  --color-career-300: var(--color-sky-300);
+  --color-career-400: var(--color-sky-400);
+  --color-career-500: var(--color-sky-500);
+  --color-career-600: var(--color-sky-600);
+  --color-career-700: var(--color-sky-700);
+  --color-career-800: var(--color-sky-800);
+  --color-career-900: var(--color-sky-900);
+  --color-career-950: var(--color-sky-950);
+
+  --color-thoughts-50: var(--color-amber-50);
+  --color-thoughts-100: var(--color-amber-100);
+  --color-thoughts-200: var(--color-amber-200);
+  --color-thoughts-300: var(--color-amber-300);
+  --color-thoughts-400: var(--color-amber-400);
+  --color-thoughts-500: var(--color-amber-500);
+  --color-thoughts-600: var(--color-amber-600);
+  --color-thoughts-700: var(--color-amber-700);
+  --color-thoughts-800: var(--color-amber-800);
+  --color-thoughts-900: var(--color-amber-900);
+  --color-thoughts-950: var(--color-amber-950);
+  
+  --color-content-50: var(--color-emerald-50);
+  --color-content-100: var(--color-emerald-100);
+  --color-content-200: var(--color-emerald-200);
+  --color-content-300: var(--color-emerald-300);
+  --color-content-400: var(--color-emerald-400);
+  --color-content-500: var(--color-emerald-500);
+  --color-content-600: var(--color-emerald-600);
+  --color-content-700: var(--color-emerald-700);
+  --color-content-800: var(--color-emerald-800);
+  --color-content-900: var(--color-emerald-900);
+  --color-content-950: var(--color-emerald-950);
+}
+
+@layer base {
+}
+
+@import "components/fonts.css";
+@import "components/markdown.css";
+

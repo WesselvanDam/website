@@ -1,0 +1,17 @@
+<a href="{{ .RelPermalink }}" class="h-full flex flex-col md:max-lg:flex-row md:max-lg:*:w-1/2 gap-4 group pt-4">
+  <div class="w-full rounded-xl shadow-lg aspect-[16/9] overflow-hidden place-self-start">
+    {{ with partial "utils/banner.html" . }}
+      <img src="{{ .srcWide }}" alt="{{ .alt }}" class="object-cover">
+    {{ else }}
+      {{ partial "utils/gradient.html" . }}
+    {{ end }}
+  </div>
+  <span class="flex flex-col gap-4 max-lg:*:data-title:text-xl max-lg:*:data-summary:text-base px-2 md:max-lg:px-0">
+    <div class="flex justify-between w-full items-baseline">
+      {{ partial "components/post/section-badge.html" . }}
+      {{ partial "components/post/date.html" . }}
+    </div>
+    {{ partial "components/post/title.html" . }}
+    {{ partial "components/post/summary.html" . }}
+  </span>
+</a>

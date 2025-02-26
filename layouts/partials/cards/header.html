@@ -1,0 +1,12 @@
+<a href="{{ .RelPermalink }}" class="bg-neutral-100/80 backdrop-blur-xl rounded-xl group flex flex-col items-start gap-4 p-8 shadow-xl md:*:data-title:text-3xl lg:*:data-summary:mr-0 lg:*:data-title:mr-0">
+  <div class="flex justify-between w-full mb-2 items-baseline">
+    {{ partial "components/post/section-badge.html" . }}
+    {{ partial "components/post/date.html" . }}
+  </div>
+  {{ partial "components/post/title.html" . }}
+  {{ partial "components/post/summary.html" . }}
+  <div class="flex justify-between w-full max-lg:hidden">
+    <div></div> <!-- Empty div to take up space -->
+    {{ partial "components/post/read-more.html" . }}
+  </div>
+</a>

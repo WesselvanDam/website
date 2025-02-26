@@ -1,0 +1,21 @@
+{{ $dict := dict  }} {{/* a dictionary that will contain the keys srcWide, srcTall and alt */}}
+
+{{ if .Params.BannerWide }}
+  {{ with .Resources.GetMatch .Params.BannerWide }}
+  {{ $dict = merge $dict (dict "srcWide" .RelPermalink) }}
+  {{ end }}
+{{ end }}
+
+{{ $srcTall := $dict.srcWide }}
+{{ if .Params.BannerTall }}
+  {{ with .Resources.GetMatch .Params.BannerTall }}
+    {{ $srcTall = .RelPermalink }}
+    {{ $dict = merge $dict (dict "srcTall" $srcTall) }}
+  {{ end }}
+{{ end }}
+
+{{ if .Params.BannerAlt }}
+  {{ $dict = merge $dict (dict "alt" .Params.BannerAlt) }}
+{{ end }}
+
+{{ return $dict }}
