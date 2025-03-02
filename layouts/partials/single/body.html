@@ -1,24 +1,57 @@
-<article class="mx-auto px-4 sm:px-8 lg:px-0 lg:w-min lg:-mt-48 flex flex-col items-center"> 
-  <div class="lg:bg-neutral-50/80 lg:backdrop-blur-lg lg:shadow-xl pb-16 mb-8 lg:px-16 rounded-xl">
-    <div class="w-full max-w-prose lg:w-max ">
-      <span class="pt-16 font-semibold flex flex-wrap lg:min-w-prose">
+{{ $markdowns := dict
+  "content" "markdown-content"
+  "career" "markdown-career"
+  "portfolio" "markdown-portfolio"
+  "thoughts" "markdown-thoughts"
+}}
+{{ $primaryTags := dict
+  "content" "text-content-700"
+  "career" "text-career-700"
+  "portfolio" "text-portfolio-700"
+  "thoughts" "text-thoughts-700"
+}}
+{{ $secondaryTags := dict
+  "content" "text-content-500"
+  "career" "text-career-500"
+  "portfolio" "text-portfolio-500"
+  "thoughts" "text-thoughts-500"
+}}
+{{ $markdown := index $markdowns .Section }}
+{{ $primaryTag := index $primaryTags .Section }}
+{{ $secondaryTag := index $secondaryTags .Section }}
+
+<article class="{{ $markdown }} mx-auto sm:px-pad-x lg:px-0 lg:w-min -mt-24 lg:-mt-36 xl:-mt-48 flex flex-col items-center  scroll-smooth"> 
+  <div class="bg-neutral-100/80 backdrop-blur-lg lg:shadow-xl mb-8 px-4 py-8 sm:p-8 md:p-12 lg:p-16 rounded-xl">
+    <div class="w-full max-w-prose lg:w-max">
+      <span class="font-semibold flex flex-wrap lg:min-w-prose">
         {{ $combined := slice .Section | append .Keywords }}
-        {{ range $index, $item := $combined }}
-          <p class="{{ if eq $index 0 }}text-neutral-700{{ else }}text-neutral-500{{ end }}">
-            {{ if ne $index 0}}&nbsp;‧&nbsp;{{ end }}{{ $item | upper }}
-          </p>
-        {{ end }}
+        <p class="text-sm sm:text-base text-pretty">
+          {{ range $index, $item := $combined }}
+            {{ if eq $index 0 }}
+              <span class="{{ $primaryTag}}">{{ . | upper }}</span>
+            {{ else }}
+              <span class="{{ $secondaryTag}}"> ‧ {{ . | upper }}</span>
+            {{ end }}
+          {{ end }}
+        </p>
       </span>
-      <h1 class="pt-2 text-3xl lg:text-5xl font-bold font-display text-neutral-900 tracking-tight text-pretty">{{ .Title }}</h1>
-      <p class="pt-4 text-lg text-neutral-800 text-pretty">{{ .Summary }}</p>
+      <h1 class="py-2 text-3xl lg:text-5xl font-bold font-display tracking-tight text-pretty">{{ .Title }}</h1>
+      <em class="text-sm text-neutral-600">{{ .Date | time.Format "January 2006"}}{{ if .Params.endDate }} ‧ {{ .Params.endDate | time.Format "January 2006"}}{{ end }}</em>
+      <p class="pt-8 text-lg text-pretty">{{ .Summary }}</p>
       <div class="pt-8 flex items-center text-neutral-600">
         <img src="{{ .Site.Params.Picture }}" alt="{{ .Site.Params.Author }}" class="w-12 h-12 rounded-full inline-block mr-4 shadow-inner">
         <span>
           By <strong>{{ .Site.Params.Author }}</strong> ‧ {{ .PublishDate.Format "January 2, 2006" }}
         </span>
       </div>
-      <div class="pt-12 markdown first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:mt-1.5 first-letter:leading-[80%] first-letter:float-left">
+      <div class="markdown pt-12 first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:mt-1.5 first-letter:leading-[80%] first-letter:float-left">
         {{ .Content}}
+        {{ if .Params.bannerAbout }}
+          <blockquote id="about-the-banner" class="text-pretty">
+            <strong>About the image:</strong><br>
+            {{ .Params.bannerAbout | markdownify }}
+          </blockquote>
+        {{ end }}
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: "en-us"
-title: "Wessel's Website"
+title: "Wessel van Dam"
 
 params:
   author: "Wessel van Dam"
@@ -11,6 +11,8 @@ sectionPagesMenu: "main"
 permalinks:
   posts: "/:year/:month/:day/:title/"
 
+disableKinds:
+  - taxonomy
 
 # The following lines ensure that the latest Tailwind CSS is used when changes are made to the layout files
 build:

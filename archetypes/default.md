@@ -10,6 +10,7 @@ params:
   bannerWide:
   bannerTall:
   bannerAlt:
+  bannerAbout:
   endDate: null
   location: null
 ---

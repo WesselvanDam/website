@@ -2,26 +2,10 @@
 {{ if ne (len .Posts) 0 }}
   {{ $first := index $posts 0 }}
   {{ with $.Context.Site.GetPage $first }}
-  <header  class="relative aspect-[2/3] min-[420px]:aspect-[1/1] sm:aspect-[3/2] md:aspect-[2/1] flex items-center">
-    {{ with partial "utils/banner.html" . }}
-    <picture class="w-full h-full object-cover">
-      {{ if .srcTall }}
-      <source media="(max-width: 767px)" srcset="{{ .srcTall }}" >
-      {{ end }}
-      <img src="{{ .srcWide }}" srcset="{{ .srcWide }} 1200w" sizes="1200px" alt="{{ .alt }}" class="w-full h-full object-cover">
-    </picture>
-    {{ else }}
-      {{ partial "utils/gradient.html" . }}
-    {{ end }}
-    <div class="absolute px-4 md:px-16 lg:px-8 mx-auto inset-0 flex max-lg:-bottom-32">
-      <div class="max-w-7xl mx-auto grid grid-cols-1 max-lg:w-full lg:grid-cols-3 gap-8 content-end max-lg:py-0 lg:py-8 xl:py-24">
-        {{ partial "cards/header.html" . }}
-      </div>
-    </div>
-  </header>
+    {{ partial "components/header" . }}
   {{ end }}
   {{ $others := after 1 $posts }}
-  <section class="px-4 sm:px-8 md:px-16 lg:px-8 mx-auto inset-0 max-lg:pt-24">
+  <section class="px-pad-x mx-auto inset-0 max-lg:pt-24">
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 py-16 space-y-8 *:hover:scale-102  *:transition-transform *:duration-300">
       {{ range $others }}
         {{ with $.Context.Site.GetPage . }}

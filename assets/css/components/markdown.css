@@ -1,5 +1,4 @@
-.markdown {
-  @apply text-gray-900;
+@utility markdown {
 
   h1,
   h2,
@@ -51,11 +50,23 @@
   }
 
   a {
-    @apply text-blue-600 underline;
+    @apply text-blue-600 underline decoration-2;
   }
 
   a:hover {
     @apply text-blue-800;
+  }
+
+  h2::before,
+  h3::before,
+  h4::before,
+  h5::before,
+  #about-the-image:before {
+    display: block;
+    content:" ";
+    margin-top: calc(var(--spacing) * -32);
+    height: calc(var(--spacing) * 32); 
+    visibility: hidden;
   }
 
   ul {
@@ -107,7 +118,7 @@
   }
 
   code {
-    @apply bg-gray-200 px-1 rounded-md text-green-800;
+    @apply px-1 rounded-md bg-gray-100;
   }
 
   hr {
@@ -120,5 +131,102 @@
 
   .footnotes ol {
     @apply before:content-['NOTES'] text-sm marker:text-neutral-500;
+  }
+}
+
+@utility markdown-portfolio {
+  @apply text-portfolio-800;
+
+  a {
+    @apply text-portfolio-600;
+  }
+
+  a:hover {
+    @apply text-portfolio-800;
+  }
+  
+  hr {
+    @apply border-2 border-portfolio-200 my-6;
+  }
+
+  code {
+    @apply bg-portfolio-200 text-portfolio-800;
+  }
+
+  blockquote {
+    @apply border-portfolio-200;
+  }
+}
+
+@utility markdown-career {
+  @apply text-career-800;
+
+  a {
+    @apply text-career-600;
+  }
+
+  a:hover {
+    @apply text-career-800;
+  }
+  
+  hr {
+    @apply border-2 border-career-200 my-6;
+  }
+
+  code {
+    @apply bg-career-200 text-career-800;
+  }
+
+  blockquote {
+    @apply border-career-200;
+  }
+}
+
+@utility markdown-thoughts {
+  @apply text-thoughts-800;
+
+
+  a {
+    @apply text-thoughts-600;
+  }
+
+  a:hover {
+    @apply text-thoughts-800;
+  }
+  
+  hr {
+    @apply border-2 border-thoughts-200 my-6;
+  }
+
+  code {
+    @apply bg-thoughts-200 text-thoughts-800;
+  }
+
+  blockquote {
+    @apply border-thoughts-200;
+  }
+}
+
+@utility markdown-content {
+  @apply text-content-800;
+
+  a {
+    @apply text-content-600;
+  }
+
+  a:hover {
+    @apply text-content-800;
+  }
+  
+  hr {
+    @apply border-2 border-content-200 my-6;
+  }
+
+  code {
+    @apply bg-content-200 text-content-800;
+  }
+
+  blockquote {
+    @apply border-content-200;
   }
 }

@@ -3,9 +3,9 @@
 <head>
   {{ partial "head/head.html" . }}
 </head>
-<body class="max-w-screen-2xl mx-auto">
+<body class="max-w-screen-2xl mx-auto bg-neutral-100">
   {{ partial "nav/nav.html" . }}
-  <main class="bg-neutral-100">
+  <main class="bg-neutral-200 scroll-smooth">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer/footer.html" . }}
