@@ -11,7 +11,7 @@ params:
   bannerTall: flutter-taggable-screenshot-tall.png
   bannerAlt: "A screenshot of the flutter_taggable package in action"
   bannerAbout: null
-  endDate: null
+  startDate: null
   location: null
 ---
 

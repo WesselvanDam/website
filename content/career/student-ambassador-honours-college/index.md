@@ -2,7 +2,7 @@
 draft: false
 title: Student Ambassador for the Honours College
 slug: student-ambassador-honours-college
-date: 2019-09-01
+date: 2021-08-31
 summary: After finishing my own track, I helped recruit new honours students and organised various activities. 
 keywords: [Employment, Leiden University]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: null
   bannerAlt: The Gorlaeus Laboratory, where many Honours College events took place
   bannerAbout: "I did not have a lot of pictures from my time as a student ambassador, so here is a picture of the Gorlaeus Laboratory, where many Honours College events took place. Additionally, it housed the office of track coordinator Mionne Laman, where I sometimes worked as well."
-  endDate: 2021-08-31
+  startDate: 2019-09-01
   location: Leiden, The Netherlands
 ---
 

@@ -2,14 +2,14 @@
 draft: false
 title: The AEGEE-Leiden App
 slug: aegee-leiden-app
-date: 2020-09-01
+date: 2025-03-01
 summary: Developing a complex app for my student association remains my biggest coding project to date.
 keywords: [Software, Mobile App]
 params:
   bannerWide: /bannerWide.jpg
   bannerTall: null
   bannerAlt: A mockup of the AEGEE-Leiden App on a smartphone
-  endDate: 2022-05-24
+  startDate: 2020-09-01
   location: Leiden, The Netherlands
 ---
 

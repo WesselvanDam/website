@@ -2,7 +2,7 @@
 draft: false
 title: The Honours College
 slug: honours-college
-date: 2018-03-01
+date: 2020-06-30
 summary: The Honours College program at Leiden University broadened my knowledge and provided interesting opportunities.
 keywords: [Education, Leiden University]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: null
   bannerAlt: The old observatory in Leiden, where many Honours classes are taught.
   bannerAbout: "The header image is a picture of the old observatory in Leiden, where many Honours College classes are taught. Considering my astronomy major, it was a fitting location for me to spend some extra time."
-  endDate: 2020-06-30
+  startDate: 2018-03-01
   location: Leiden, The Netherlands
 ---
 

@@ -2,7 +2,7 @@
 draft: false
 title: Assessor of the Honours Academy
 slug: assessor-honours-academy
-date: 2020-09-01
+date: 2022-08-31
 summary: Representing honours students during a pandemic was a challenging experience.
 keywords: [Employment, Leiden University]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: assessor-honours-academy-tall.webp
   bannerAlt: Me posing in an Honours Academy hoodie at an event in The Hague.
   bannerAbout: "The header image shows me posing in an Honours Academy hoodie at an event for Pre-University College students in The Hague. The photo was taken by JP Witteman from [Buro JP](https://burojp.nl/ 'Buro JP website')."
-  endDate: 2022-08-31
+  startDate: 2020-09-01
   location: Leiden, The Netherlands
 ---
 

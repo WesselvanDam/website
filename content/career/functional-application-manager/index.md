@@ -9,6 +9,6 @@ params:
   bannerWide: ''
   bannerTall: ''
   bannerAlt: '' 
-  endDate: null
+  startDate: 2024-04-15
   location: null
 ---

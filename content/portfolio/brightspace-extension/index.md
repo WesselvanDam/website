@@ -4,14 +4,14 @@ title: 'A Brightspace browser extension'
 slug: 'brightspace-extension'
 date: '2022-04-30'
 publishDate: '2025-03-02'
-summary: A small browser extension that adds a single button to the Brightspace interface.
-keywords: [Software, Browser Extension]
+summary: A small browser extension that adds just a single button to the Brightspace interface.
+keywords: [Software, Open Source]
 params:
   bannerWide: brightspace-extension-screenshot-wide.webp
   bannerTall: brightspace-extension-screenshot-tall.webp
   bannerAlt: A screenshot of the Brightspace browser extension in action
   bannerAbout: "A screenshot of the Brightspace browser extension in action: the orange button is added by the extension and opens the PDF file in a new tab."
-  endDate: null
+  startDate: null
   location: null
 ---
 

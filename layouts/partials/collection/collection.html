@@ -5,7 +5,7 @@
     {{ partial "components/header" . }}
   {{ end }}
   {{ $others := after 1 $posts }}
-  <section class="px-pad-x mx-auto inset-0 max-lg:pt-24">
+  <section class="px-pad-x mx-auto inset-0 max-lg:pt-24 bg-neutral-100">
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 py-16 space-y-8 *:hover:scale-102  *:transition-transform *:duration-300">
       {{ range $others }}
         {{ with $.Context.Site.GetPage . }}

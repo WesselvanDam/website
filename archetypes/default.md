@@ -11,6 +11,6 @@ params:
   bannerTall:
   bannerAlt:
   bannerAbout:
-  endDate: null
+  startDate: null
   location: null
 ---

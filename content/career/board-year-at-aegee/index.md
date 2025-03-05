@@ -2,7 +2,7 @@
 draft: false
 title: Board year at AEGEE-Leiden
 slug: board-year-at-aegee
-date: 2019-09-01
+date: 2020-08-31
 summary: Giving back to the association that gave me so much is still one of the best decisions I ever made.
 keywords: [Volunteering, AEGEE-Leiden]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: null
   bannerAlt: Aurorae, the 39th board of AEGEE-Leiden
   bannerAbout: "The header image shows 'Aurorae', the 39th board of AEGEE-Leiden, a few weeks prior to the start of our term. The photo was taken by [Wilke Geurds](https://www.wilkegeurds.nl/ 'Wilke Geurds website')."
-  endDate: 2020-08-31
+  startDate: 2019-09-01
   location: Leiden, The Netherlands
 ---
 

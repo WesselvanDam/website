@@ -2,7 +2,7 @@
 draft: false
 title: Exchange at KTH Stockholm
 slug: exchange-in-stockholm
-date: 2022-08-16
+date: 2022-12-24
 summary: Studying a semester at the Royal Institute of Technology in Sweden proved to be a great experience.
 keywords: [Education, KTH]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: kth-courtyard-tall.jpg
   bannerAlt: The courtyard of the KTH Royal Institute of Technology
   bannerAbout: "The header image is a picture I took of the courtyard of the KTH Royal Institute of Technology in Stockholm. I walked through this courtyard every time I had a lecture to follow."
-  endDate: 2022-12-24
+  startDate: 2022-08-16
   location: Stockholm, Sweden
 ---
 

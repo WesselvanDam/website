@@ -2,7 +2,7 @@
 draft: false
 title: Student Ambassador for Astronomy
 slug: student-ambassador-astronomy
-date: 2018-09-01
+date: 2019-08-31
 summary: This small job kickstarted a series of positions representing students at Leiden University.
 keywords: [Employment, Leiden University]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: null
   bannerAlt: A group picture at the University's Open Day on October 13, 2018
   bannerAbout: "The header image is a picture of the Astronomy bachelor's degree team at the University's Open Day on October 13, 2018. The resolution is not great, but it was a fun day."
-  endDate: 2019-08-31
+  startDate: 2018-09-01
   location: Leiden, The Netherlands
 ---
 

@@ -2,7 +2,7 @@
 draft: false
 title: The Thank You Token
 slug: thank-you-token
-date: 2024-05-09
+date: 2024-09-30
 publishDate: 2024-10-01
 summary: A simple and sustainable way of expressing your gratitude to someone.
 keywords: [Software, Website]
@@ -11,7 +11,7 @@ params:
   bannerTall: /bannerTall.jpg
   bannerAlt: The Thank You Token
   bannerAbout: "The header image is an AI-generated image of a token, on which I photoshopped the Thank You Token logo."
-  endDate: 2024-09-30
+  startDate: 2024-05-09
   location: Leiden, The Netherlands
 ---
 

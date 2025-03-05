@@ -2,7 +2,7 @@
 draft: false
 title: Master Computer Science
 slug: master-computer-science
-date: 2021-09-01
+date: 2024-03-31
 summary: The journey towards getting my diploma in the AI specialisation proved to be a thought-provoking one.
 keywords: [Education, Leiden University]
 params:
@@ -10,7 +10,7 @@ params:
   bannerTall: null
   bannerAlt: "A procedurally generated Minecraft building based on the Rietveld Schröder House in Utrecht"
   bannerAbout: "The header image is a procedurally generated Minecraft building based on the Rietveld Schröder House in Utrecht. It was part of an assignment for the course _Modern Game AI Algorithms_. I don't have a lot of pictures relating to my master's degree, so this programmatically generated building will have to do."
-  endDate: 2024-03-31
+  startDate: 2021-09-01
   location: Leiden, The Netherlands
 ---
 

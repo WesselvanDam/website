@@ -53,6 +53,10 @@
     @apply text-blue-600 underline decoration-2;
   }
 
+  sup > a {
+    @apply decoration-1;
+  }
+
   a:hover {
     @apply text-blue-800;
   }
@@ -131,6 +135,18 @@
 
   .footnotes ol {
     @apply before:content-['NOTES'] text-sm marker:text-neutral-500;
+  }
+
+  figure {
+    @apply my-8;
+  }
+
+  figure > img, figure > video {
+    @apply w-full rounded-lg;
+  }
+
+  figcaption {
+    @apply text-center text-neutral-500 text-sm mt-2;
   }
 }
 

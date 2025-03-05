@@ -2,11 +2,11 @@
 draft: false
 title: Bachelor's degree in Astronomy
 slug: bachelor-astronomy
-date: 2017-09-01
+date: 2021-08-31
 summary: My first years at Leiden University gave me a foundation in astrophysics as well as skills gained from extracurricular activities.
 keywords: [Education, Leiden University]
 params:
-  endDate: 2021-08-31
+  startDate: 2017-09-01
   bannerWide: /bannerWide.jpg
   bannerTall: /bannerTall.jpg
   bannerAlt: Wessel on top of La Palma's highest mountain

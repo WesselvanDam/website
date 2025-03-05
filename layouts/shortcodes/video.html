@@ -1,0 +1,20 @@
+{{/* layouts/shortcodes/video.html */}}
+<figure>
+  <video
+    controls
+    preload="metadata"
+    {{ with .Get "src" }}src="{{ . }}"{{ end }}
+    {{ with .Get "type" }}type="{{ . }}"{{ end }}
+    {{ with .Get "width" }}width="{{ . }}"{{ end }}
+    {{ with .Get "height" }}height="{{ . }}"{{ end }}
+    {{ if eq (.Get "autoplay") "true" }}autoplay{{ end }}
+    {{ if eq (.Get "loop") "true" }}loop{{ end }}
+    {{ if eq (.Get "muted") "true" }}muted{{ end }}
+    {{ if eq (.Get "playsinline") "true" }}playsinline{{ end }}
+  >
+    Your browser does not support the video tag.
+  </video>
+  {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

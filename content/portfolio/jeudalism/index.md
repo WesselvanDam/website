@@ -10,7 +10,7 @@ params:
   bannerWide: "cards.webp"
   bannerTall: ""
   bannerAlt: "A collection of playing cards"
-  endDate: null
+  startDate: null
   location: null
 ---
 

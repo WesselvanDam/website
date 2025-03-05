@@ -13,14 +13,18 @@
       * Website
       * Mobile App
       * Game
+      * Open Source
+    * Design
+      * Book
+      * Logo
     * Music
     * Photography
     * Video
     * Game
 * Thoughts
-    * Writings
+    * Miscellaneous
     * Philosophy
-    * Critique
+    * Essay
 * Content
     * Video
     * Podcast
