@@ -14,6 +14,11 @@ permalinks:
 disableKinds:
   - taxonomy
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # The following lines ensure that the latest Tailwind CSS is used when changes are made to the layout files
 build:
   cachebusters:
