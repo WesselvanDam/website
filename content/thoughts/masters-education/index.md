@@ -29,7 +29,7 @@ In my opinion, based on the courses that I followed, the process of obtaining a 
 
  Although the university goes to great lengths to collect feedback from students, this is restricted to evaluations of individual courses. While certainly useful at the course level, bigger patterns are not easily noticed. Thus, after my graduation, I wrote a letter to my program's director of education, in which I discussed these three points in more detail, with concrete examples from my own experience. Even though I am unhappy with the state of the program, I tried to be constructive in my criticism, giving suggestions for improvement where possible and highlighting positive aspects of the program as well. You can read the letter by clicking the button below, but note that it is written in Dutch. 
 
-{{< button href=computer-science-evaluation-letter.pdf text="To my letter" >}}
+{{< button href="computer-science-evaluation-letter.pdf" text="To my letter" >}}
 
 While I haven't received a response to my critique, I sincerely hope that readers are willing to engage in a discussion about the actual, current quality of higher education. Although such discussions are taking place more and more regarding primary and secondary education (exposed by analyses of children's performances), I feel that higher education is still largely left out of the debate.
 

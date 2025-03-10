@@ -5,7 +5,7 @@ slug: "jeudalism"
 date: "2024-08-27"
 publishDate: "2024-08-27"
 summary: "In a quest to find more games to play with regular playing cards, I created one myself."
-keywords: [Game]
+keywords: [Design, Game]
 params:
   bannerWide: "cards.webp"
   bannerTall: ""

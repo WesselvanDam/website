@@ -11,16 +11,17 @@
 * Portfolio
     * Software
       * Website
-      * Mobile App
-      * Game
+      * App
       * Open Source
     * Design
       * Book
       * Logo
+      * Game
     * Music
     * Photography
     * Video
-    * Game
+      * Animation
+      * Editing
 * Thoughts
     * Miscellaneous
     * Philosophy

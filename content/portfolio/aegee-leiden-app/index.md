@@ -1,10 +1,10 @@
 ---
 draft: false
-title: The AEGEE-Leiden App
+title: The AEGEE-Leiden app
 slug: aegee-leiden-app
 date: 2025-03-01
 summary: Developing a complex app for my student association remains my biggest coding project to date.
-keywords: [Software, Mobile App]
+keywords: [Software, App]
 params:
   bannerWide: /bannerWide.jpg
   bannerTall: null
