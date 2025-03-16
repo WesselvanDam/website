@@ -1,5 +1,6 @@
 ---
 title: "Home"
+summary: "Welcome to Wessel's Website, where you can read about my projects, thoughts, and career."
 
 params:
   featured:
@@ -14,5 +15,3 @@ params:
     - career/functional-application-manager
     - career/master-computer-science
 ---
-
-Welcome to your new Hugo site.

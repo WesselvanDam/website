@@ -4,8 +4,40 @@
 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+<title>{{ printf "%s | %s" .Title site.Title }}</title>
+
+<meta name="title" content='{{ printf "%s | %s" .Title site.Title }}'>
+<meta name="description" content="{{ .Summary }}">
+<meta name="author" content="Wessel van Dam">
+<meta name="keywords" content="Wessel van Dam, Wessel, van Dam">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content='{{ printf "%s | %s" .Title site.Title }}'>
+<meta property="og:description" content="{{ .Summary }}">
+{{ if .Params.bannerWide }}
+  {{ with .Resources.GetMatch .Params.bannerWide }}
+    <meta property="og:image" content="{{ .RelPermalink | absURL}}">
+  {{ else }}
+    <meta property="og:image" content="{{ .Site.Params.PictureLarge | absURL }}">
+  {{ end }}
+{{ else if .IsSection }}
+  {{ with index .Pages 0 }}
+    {{ with .Resources.GetMatch .Params.bannerWide }}
+      <meta property="og:image" content="{{ .RelPermalink | absURL }}">
+    {{ else }}
+      <meta property="og:image" content="{{ $.Site.Params.PictureLarge | absURL }}">
+    {{ end }}
+  {{ end }}
+{{ else }}
+  <meta property="og:image" content="{{ .Site.Params.PictureLarge | absURL }}">
+{{ end }}
+
+
 <meta name="theme-color" content="#f5f5f5">
 
-<title>{{ printf "%s | %s" .Title site.Title }}</title> 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

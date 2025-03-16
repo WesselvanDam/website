@@ -3,6 +3,8 @@
 {{ if .Params.BannerWide }}
   {{ with .Resources.GetMatch .Params.BannerWide }}
   {{ $dict = merge $dict (dict "srcWide" .RelPermalink) }}
+  {{ $dict = merge $dict (dict "width" .Width) }}
+  {{ $dict = merge $dict (dict "height" .Height ) }}
   {{ end }}
 {{ end }}
 

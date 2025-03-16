@@ -4,7 +4,8 @@ title: "Wessel van Dam"
 
 params:
   author: "Wessel van Dam"
-  picture: "/images/wessel-van-dam.jpg"
+  pictureSmall: "/images/wessel-van-dam-small.webp"
+  pictureLarge: "/images/wessel-van-dam-large.webp"
 
 sectionPagesMenu: "main"
 

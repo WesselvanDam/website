@@ -39,7 +39,7 @@
       <em class="text-sm text-neutral-600">{{ if .Params.startDate }}{{ .Params.startDate | time.Format "January 2006"}} ‧ {{ end }}{{ .Date | time.Format "January 2006"}}</em>
       <p class="pt-8 text-lg text-pretty">{{ .Summary }}</p>
       <div class="pt-8 flex items-center text-neutral-600">
-        <img src="{{ .Site.Params.Picture }}" alt="{{ .Site.Params.Author }}" class="w-12 h-12 rounded-full inline-block mr-4 shadow-inner">
+        <img src="{{ .Site.Params.PictureSmall }}" alt="{{ .Site.Params.Author }}" class="w-12 h-12 rounded-full inline-block mr-4 shadow-inner">
         <span>
           By <strong>{{ .Site.Params.Author }}</strong> ‧ {{ .PublishDate.Format "January 2, 2006" }}
         </span>

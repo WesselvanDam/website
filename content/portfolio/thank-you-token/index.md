@@ -10,7 +10,7 @@ params:
   bannerWide: /bannerWide.jpg
   bannerTall: /bannerTall.jpg
   bannerAlt: The Thank You Token
-  bannerAbout: "The header image is an AI-generated image of a token, on which I photoshopped the simplified Thank You Token logo. I mirrored the image to make it look nicer on the homepage, although this mirrors the logo as well..."
+  bannerAbout: "The header image is an AI-generated image of a token, on which I photoshopped the simplified Thank You Token logo."
   startDate: 2024-05-09
   location: Leiden, The Netherlands
 ---
