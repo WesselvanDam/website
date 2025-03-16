@@ -72,9 +72,6 @@
   }  
 }  
 
-@layer base {
-}
-
 @import "components/fonts.css";
 @import "components/markdown.css";
 

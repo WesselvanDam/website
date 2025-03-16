@@ -9,7 +9,7 @@ params:
   bannerWide: sterrewacht.webp
   bannerTall: null
   bannerAlt: The old observatory in Leiden, where many Honours classes are taught.
-  bannerAbout: "The header image is a picture of the old observatory in Leiden, where many Honours College classes are taught. Considering my astronomy major, it was a fitting location for me to spend some extra time."
+  bannerAbout: "The header image is a picture of the old observatory in Leiden, where many Honours College classes are taught. Considering my astronomy major, it was a fitting location for me to spend some extra time. Image courtesy of [Wikimedia Commons](https://nl.m.wikipedia.org/wiki/Bestand:Leiden-Sterrewacht-2013-d.jpg)."
   startDate: 2018-03-01
   location: Leiden, The Netherlands
 ---

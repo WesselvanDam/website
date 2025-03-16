@@ -56,7 +56,7 @@ For fellow developers, here are some technical details about the AEGEE-Leiden Ap
   - _Cloud Functions_ for many server-side tasks, such as sending triggering push notifications, role management, integrations, and more.
   - _Hosting_ for serving the web version of the app
 - **Resource CMS**: While posts, activities, comments, etc. were stored in Cloud Firestore, we used Google Drive for the storage of photos and documents, as this is easier to maintain for non-developers. The Google Drive API is used to fetch these resources.
-- **Version Control**: We used Git for version control, using branches for each feature or bug and leveraging many of GitHub's features, such as issues, pull requests, and project boards. Across the project, I made over 1,000 commits to the repository.
+- **Version Control**: We used Git for version control, using branches for each feature or bug and leveraging many of GitHub's features, such as issues, pull requests, and project boards. Across the project, I made over 1,000 commits to the repository, ranging from small bug fixes to complete rewrites of entire features.
 
 If you have any questions about the technical details, feel free to reach out to me!
 

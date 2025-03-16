@@ -7,11 +7,11 @@ publishDate: '2025-03-07'
 summary: This show helps me forming more nuanced views about a broad range of topics. Here are my favourite episodes.
 keywords: [Podcast, Philosophy]
 params:
-  bannerWide:
-  bannerTall:
-  bannerAlt:
+  bannerWide: philosophize-this-wide.webp
+  bannerTall: philosophize-this-tall.webp
+  bannerAlt: The Philosophize This! podcast's logo
   bannerAbout:
-  endDate: null
+  startDate: null
   location: null
 ---
 
@@ -28,5 +28,6 @@ In the early years &mdash; the podcast has been running since 2013! &mdash; he w
 ## My favourite episodes
 Listening to Philosophize This has helped me greatly in forming more nuanced views about a broad range of topics, some of which may end up this website sometime. While I have yet to finish the show, I am compiling my favourite episodes in a Spotify playlist. These ones I found the most eye-opening, thought-provoking, or most challenging to my existing views. Give it a listen!
 
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/56K3NTwgmfZKRFXs5N9Vp4" width="100%" height="420" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<figure>
+<iframe src="https://open.spotify.com/embed/playlist/56K3NTwgmfZKRFXs5N9Vp4" width="100%" height="420" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</figure>

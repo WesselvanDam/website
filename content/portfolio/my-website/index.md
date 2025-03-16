@@ -35,9 +35,24 @@ Soon after, I paused work on my website to focus on AEGEE's site instead. During
 
 ## The final site
 
-Just like the AEGEE site, this one is built with [Hugo](https://gohugo.io/) and TailwindCSS. This time, I strongly modeled the design after GatesNotes, with some enhancements here and there. Still, you will see traces of the earlier versions in this site. I paid close attention the design principes I learned from the books (e.g. contrast, whitespace, and hierarchy), and made the site revolve more around the content than the design. Special attention was given to the responsiveness of the site, as I wanted it to look good on all devices. 
+Just like the AEGEE site, this one is built with [Hugo](https://gohugo.io/) and TailwindCSS. This time, I strongly modeled the design after GatesNotes, with some enhancements here and there. Still, you will see traces of the earlier versions in this site. I paid close attention the design principes I learned from the books (e.g. contrast, whitespace, and hierarchy), and made the site revolve more around the content than the design. Special attention was given to the responsiveness of the site, as I wanted it to look good on all devices.
 
-I will probably never consider this website truly finished, as I will always want to add new features or change the design. Nevertheless, I am much happier with this version than with the designs I made before, as it feels more mature, more accessible, and more focused on the content. In that regard, compiling and writing all the content for this site has been a great exercise, as I had about seven years of experience to reflect on. Now that the website finished, I hope it fulfills its aforementioned [purpose](/thoughts/this-website/) well &mdash; and that you enjoy reading it!
+### About the content
+
+Essentially, this website is a collection of posts, but these posts are divided into four categories:
+
+- **Portfolio**: Software, design and other projects I have finished, often in the context of my student's association AEGEE-Leiden, but this will be more diverse in the future.
+- **Career**: My education, jobs, and other professional experiences &mdash; the typical LinkedIn stuff.
+- **Thoughts**: A blog-like section, with posts about my thoughts on various topics, as well as some essay-like writings.
+- **Content**: A repository of content I've come across that I recommend, such as books, videos, and podcasts.
+
+The latter two categories don't have a lot of posts yet, but I hope to add more in the future. I found that it is difficult to find relevant banner images for these posts, so I typically just use some semi-random photographs I've taken.
+
+The homepage shows featured articles, hand-picked by me based on what I'm most proud of and on what I think readers would find interesting. Prior to getting this site live, I had to write _a lot_ of posts, which proved to be quite the challenge. Anytime I look back on a post I've written, I'll notice something that I want to change. I'll need to resist that urge, though, lest I get stuck in an endless loop of editing.
+
+## Conclusion
+
+I will probably never consider this website truly finished, as I will always want to add new features or change the design. Nevertheless, I am much happier with this version than with the prototypes I made before, as it feels more mature, more accessible, and more focused on the content. In that regard, compiling and writing all the content for this site has been a great exercise, as I had about seven years of experience to reflect on. Now that the website finished, I hope it fulfills its aforementioned [purpose](/thoughts/this-website/) well &mdash; and that you enjoy reading it!
 
 
 [^1]: At the beginning of the video of my first website, you'll see that the three items in the tagline are _Stoic | Generalist | Introvert_. Indeed, quite dramatic, and at the time I was rather pleased with these three. Soon, however, I started to dislike the idea of trying to describe myself in three words (as well as these three specifically). Now, I prefer the idea of the ensemble of posts on this website describing me instead.

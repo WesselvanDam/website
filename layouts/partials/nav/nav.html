@@ -1,23 +1,12 @@
 <nav class="fixed z-100 mx-auto px-pad-x inset-x-0 top-8">
-  <ol class="h-16 max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between bg-neutral-50/80 hover:bg-neutral-50/90 transition-all duration-500 ease-in-out backdrop-blur-xs rounded-xl shadow-lg text-xl font-display font-medium **:data-menu-item:hover:font-bold **:data-menu-item:[transition:font_200ms] ">
+  <ol class="h-16 max-w-7xl mx-auto px-4 sm:px-8 flex justify-between items-center bg-neutral-50/80 hover:bg-neutral-50/90 transition-all duration-500 ease-in-out backdrop-blur-xs rounded-xl shadow-lg text-xl font-display">
     <li class="flex-none h-8 w-fit">
       <a href="/">{{ partial "components/logo.html" . }}</a>
     </li>
     {{/*  Create empty space between Home and the other items */}}
-    <li class="flex-initial w-88"></li>
+    <li class="shrink w-88"></li>
     {{ range .Site.Menus.main.ByWeight }}
-    {{ $colors := dict
-      "content" "after:bg-content-500"
-      "career" "after:bg-career-500"
-      "portfolio" "after:bg-portfolio-500"
-      "thoughts" "after:bg-thoughts-500"
-    }}
-    {{ $color := index $colors page.Section }}
-    <li class="justify-center text-center basis-24 lg:basis-32 shrink-0 text-neutral-600 max-md:hidden ">
-      <a href="{{ .URL }}" class="relative inline-block h-full w-full {{ if eq page.Section (.Title | lower ) }} after:content-[''] after:absolute after:w-2 after:h-2 after:left-1/2 after:transform after:-translate-x-1/2 after:rounded after:-bottom-2 {{ $color }} {{ end }}">
-          <span data-menu-item>{{ .Title }}</span>
-      </a>
-    </li>
+      {{ partial "nav/destination.html" . }}
     {{ end }}
     <li>
       <button class="md:hidden text-neutral-600 group inline-flex w-12 h-12 text-center items-center justify-center peer" aria-pressed="false" type="button" onclick="this.setAttribute('aria-pressed', !(this.getAttribute('aria-pressed') === 'true'))">
@@ -28,11 +17,14 @@
           <rect class="origin-center translate-y-[5px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-pressed:translate-y-0 group-aria-pressed:rotate-[135deg]" y="7" width="9" height="2" rx="1"></rect>
         </svg>
       </button>
-      <div id="side-menu" class="-z-50 fixed -top-8 -left-pad-x shadow-lg transform transition-all duration-300 ease-in-out peer-aria-pressed:opacity-100 peer-aria-pressed:translate-x-0 opacity-0 translate-x-full peer-aria-pressed:**:[&_a]:opacity-100 peer-aria-pressed:**:[&_a]:translate-y-0">
-        <div class="-z-50 static h-screen w-screen bg-neutral-50 flex flex-col items-center justify-center text-3xl">
+      <div id="side-menu" class="md:hidden -z-50 fixed -top-8 -left-pad-x shadow-lg transform transition-all duration-300 ease-in-out peer-aria-pressed:opacity-100 peer-aria-pressed:translate-x-0 opacity-0 translate-x-full peer-aria-pressed:**:[&_a]:opacity-100 peer-aria-pressed:**:[&_a]:translate-y-0">
+        <div class="-z-50 static h-screen w-screen bg-neutral-50 flex flex-col items-center justify-center ">
           {{ range .Site.Menus.main.ByWeight }}
-          <a href="{{ .URL }}" class="block py-4 text-neutral-600 opacity-0 translate-y-8 transition-all duration-500 ">
-            <span data-menu-item>{{ .Title }}</span>
+          <a href="{{ .URL }}" class="flex flex-col items-center p-4 text-neutral-600 opacity-0 translate-y-8 transition-all duration-500 gap-1">
+            <span class="text-3xl">{{ .Title }}</span>
+            <p class="text-base text-neutral-500 text-center text-pretty">
+              {{ .Page.Summary }}
+            </p>
           </a>
           {{ end }}
         </div>

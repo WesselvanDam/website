@@ -4,11 +4,15 @@ title: "Home"
 params:
   featured:
     - portfolio/thank-you-token
-    - portfolio/aegee-leiden-app
     - thoughts/masters-education
-    - career/master-computer-science
+    - thoughts/this-website
+    - portfolio/aegee-leiden-app
+    - portfolio/aegee-leiden-website
     - portfolio/jeudalism
-    - career/board-year-at-aegee
+    - portfolio/my-website
+    - content/philosophize-this
+    - career/functional-application-manager
+    - career/master-computer-science
 ---
 
 Welcome to your new Hugo site.

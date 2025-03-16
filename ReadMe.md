@@ -23,7 +23,7 @@
       * Animation
       * Editing
 * Thoughts
-    * Miscellaneous
+    * Blog
     * Philosophy
     * Essay
 * Content

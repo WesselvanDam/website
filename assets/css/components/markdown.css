@@ -142,16 +142,20 @@
   }
 
   figure > img, figure > video {
-    @apply w-full rounded-lg;
+    @apply max-h-full object-contain w-auto rounded-lg;
   }
 
   figcaption {
-    @apply text-center text-neutral-500 text-sm mt-2;
+    @apply text-center text-neutral-500 text-sm mt-4;
   }
 }
 
 @utility markdown-portfolio {
   @apply text-portfolio-800;
+
+  ul {
+    @apply marker:text-portfolio-500;
+  }
 
   a {
     @apply text-portfolio-600;
@@ -177,6 +181,10 @@
 @utility markdown-career {
   @apply text-career-800;
 
+  ul {
+    @apply marker:text-career-500;
+  }
+
   a {
     @apply text-career-600;
   }
@@ -201,6 +209,9 @@
 @utility markdown-thoughts {
   @apply text-thoughts-800;
 
+  ul {
+    @apply marker:text-thoughts-500;
+  }
 
   a {
     @apply text-thoughts-600;
@@ -225,6 +236,10 @@
 
 @utility markdown-content {
   @apply text-content-800;
+
+  ul {
+    @apply marker:text-content-500;
+  }
 
   a {
     @apply text-content-600;

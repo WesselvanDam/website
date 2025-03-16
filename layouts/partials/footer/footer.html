@@ -1,3 +1,12 @@
-<footer class="mx-auto px-pad-x py-4 bg-neutral-300 w-full">
-  footer
+<footer class="mx-auto px-pad-x py-16 bg-neutral-300 w-full">
+  <div class="max-w-7xl mx-auto flex flex-col items-center justify-center w-full">
+    <div class="h-16 w-auto">{{ partial "components/logo.html" . }}</div>
+    <div class="flex flex-row gap-4 mt-8 items-start text-neutral-600 *:hover:text-neutral-800 *:transition *:duration-300">
+      <a href="https://github.com/WesselvanDam" title="My GitHub profile">
+        {{ partial "utils/icons.html" (dict "type" "github") }}
+      </a>
+      <a href="https://www.linkedin.com/in/wessel-van-dam/" title="My LinkedIn profile">
+        {{ partial "utils/icons.html" (dict "type" "linkedin") }}
+      </a>
+  </div>
 </footer>

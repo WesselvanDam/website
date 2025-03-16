@@ -18,7 +18,7 @@ After receiving my [bachelor's degree](/education/bachelor), I continued my stud
 
 ## Why Computer Science?
 
-I was glad for being able to enroll without the need of a pre-master program. The courses turned out to be relatively easy to complete even with deviating background knowledge. Whether this is purely thanks to my own efforts and not in part due to the assessments' setup in this program, that's something I discuss in my [critique on my master's education](/thoughts/masters-education). Such issues notwithstanding, the various assignments and projects were generally interesting, and I did not regret stepping away from astronomy.
+I was glad for being able to enroll without the need of a pre-master program. The first year consisted simply of following courses, six credits each, half of them mandatory and the other half hand-picked (I did have to stick with courses focusing on programming in Python, as I did not have a lot of experience with other programming languages). The courses turned out to be relatively easy to complete even with deviating background knowledge. Whether this is purely thanks to my own efforts and not in part due to the assessments' setup in this program, that's something I discuss in my [critique on my master's education](/thoughts/masters-education). Such remarks notwithstanding, the various assignments and projects were generally interesting, and I did not regret stepping away from astronomy.
 
 ## Going abroad and writing a thesis
 

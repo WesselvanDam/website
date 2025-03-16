@@ -1,0 +1,24 @@
+{{ 
+  $highlightColors := dict
+  "content" "after:bg-content-300"
+  "career" "after:bg-career-300"
+  "portfolio" "after:bg-portfolio-300"
+  "thoughts" "after:bg-thoughts-300"
+}}
+{{
+  $popupColors := dict
+  "content" "bg-neutral-50 text-content-800"
+  "career" "bg-neutral-50 text-career-800"
+  "portfolio" "bg-neutral-50 text-portfolio-800"
+  "thoughts" "bg-neutral-50 text-thoughts-800"
+}}
+{{ $highlightColor := index $highlightColors .Page.Section }}
+{{ $popupColor := index $popupColors .Page.Section }}
+<li class="text-center basis-24 lg:basis-32 shrink-0 text-neutral-600 max-md:hidden h-full">
+  <a href="{{ .URL }}" class="group relative h-full w-full flex items-center justify-center">
+      <span class="font-medium group-hover:font-bold [transition:font_200ms] after:content-[''] after:absolute after:h-1 after:left-1/2 after:transform after:-translate-x-1/2 after:rounded group-hover:after:rounded-b-none group-focus:after:rounded-b-none after:bottom-2 group-hover:after:w-3xs group-hover:after:z-100 group-focus:after:w-3xs group-focus:after:z-100 after:transition-all after:duration-300 {{ $highlightColor }} {{ if eq page.Section (.Title | lower )  }} after:w-8 {{ else }} after:w-0 {{ end }}">{{ .Title }}</span>
+      <p class="absolute left-1/2 transform -translate-x-1/2 top-full mb-2 text-base {{ $popupColor }} text-neutral-800 p-4 rounded-b-md shadow-lg w-3xs transition-all duration-300 opacity-0 group-hover:opacity-100 group-focus:opacity-100 translate-y-3 group-hover:-translate-y-2 group-focus:-translate-y-2 invisible group-hover:visible group-focus:visible">
+        {{ .Page.Summary }}
+      </p>
+  </a>
+</li>

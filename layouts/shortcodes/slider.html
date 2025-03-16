@@ -1,0 +1,8 @@
+<section class="my-8 max-w-full">
+  <div class="flex h-48 sm:h-72 md:h-96 *:shrink-0 gap-8 snap-x snap-mandatory *:snap-center overflow-x-scroll *:!my-2">
+    {{ .Inner }}
+  </div>
+  {{ with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</section>

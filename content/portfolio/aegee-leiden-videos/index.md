@@ -1,23 +1,23 @@
 ---
 draft: false
 title: 'Promotional Videos for AEGEE'
-slug: 'promotional-videos-aegee'
-date: '2025-03-08'
+slug: 'aegee-leiden-videos'
+date: '2020-07-12'
 publishDate: '2025-03-08'
 summary: I have had various experiences with video editing, and my videos for AEGEE-Leiden are some of my better works.
 keywords: [Video, Editing]
 params:
-  bannerWide:
-  bannerTall:
-  bannerAlt:
+  bannerWide: thumbnails-wide.webp
+  bannerTall: thumbnails-tall.webp
+  bannerAlt: 'A collection of thumbnails of the promotional videos I made for AEGEE-Leiden'
   bannerAbout:
-  endDate: null
+  startDate: null
   location: null
 ---
 
 During my [board year at AEGEE-Leiden](/career/board-year-at-aegee/), I spent some time during the COVID-19 pandemic creating promotional videos for the association. Together with renewing the website, this was part of our effort to improve the online presence of the association. Throughout my years as a student, I had already gained some experience with video editing for various projects using Adobe Premiere Pro and sometimes Adobe After Effects. I was happy to put these skills to use for AEGEE, and in this post I will share some of the public videos I made.
 
-## AEGEE-Leiden Introduction
+## AEGEE-Leiden Promotion Reel
 
 {{< youtube 6ZHEi79xueU >}}
 
@@ -34,4 +34,7 @@ In this video, we wanted to explain what AEGEE-Leiden is about from the perspect
 {{< youtube RLjWGl8kmU8 >}}
 
 This one I made two years after my board term, but I still wanted to share it here. It is an aftermovie of the summer trip that AEGEE-Leiden organized in 2022. We went to the Baltic States, and since we had quite a lot of footage, I decided to make this video. Here, too, I tried to time the transitions to the music. It's a simple video, but I think it captures the atmosphere of the trip well.
+
+## Conclusion
+It's projects like these that made me comfortable using Premiere Pro and After Effects. It was sufficient to land a small job editing video's remotely for [Lyceo](https://www.lyceo.nl/) when I was [studying abroad in Stockholm](/career/exchange-in-stockholm/). From time to time, these skills come in handy, both in my professional and personal life.
 
