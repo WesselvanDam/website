@@ -141,7 +141,7 @@
     @apply my-8;
   }
 
-  figure > img, figure > video {
+  figure > img, figure > video, figure > a > img {
     @apply max-h-full object-contain w-auto rounded-lg;
   }
 
