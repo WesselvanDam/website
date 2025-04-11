@@ -78,6 +78,8 @@ Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn'
   target="_blank"
 >}}
 
+## 2022
+
 {{< figure
   src="compressed/2022-11-11-kalmar-reeds.webp"
   link="originals/2022-11-11-kalmar-reeds.JPG"
@@ -85,8 +87,6 @@ Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn'
   caption="A close-up photo of reeds in Kalmar, Sweden. November 11, 2022"
   target="_blank"
 >}}
-
-## 2022
 
 {{< figure
   src="compressed/2022-10-15-hono-view.webp"
