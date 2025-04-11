@@ -19,6 +19,9 @@ With a camera in hand, I look at the world quite differently. While photography 
 
 Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn't always yield the result I am aiming for, which may be due to my placid disposition. Instead, I prefer vibrant colors that some may consider too artificial. Nevertheless, below you can find some of my favorite shots &mdash; click on any of them to view it in high resolution. I'll add some more recent ones soon!
 
+
+## 2023 
+
 {{< figure
   src="compressed/2023-07-27-sweden-waterfall.webp"
   link="originals/2023-07-27-sweden-waterfall.jpg"
@@ -83,6 +86,8 @@ Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn'
   target="_blank"
 >}}
 
+## 2022
+
 {{< figure
   src="compressed/2022-10-15-hono-view.webp"
   link="originals/2022-10-15-hono-view.jpg"
@@ -138,6 +143,8 @@ Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn'
   caption="A vibrant pink flower in Cronesteyn park, Leiden. February 26, 2022"
   target="_blank"
 >}}
+
+## 2021
 
 {{< figure
   src="compressed/2021-10-19-cronesteyn-dew-drops-on-web.webp"
