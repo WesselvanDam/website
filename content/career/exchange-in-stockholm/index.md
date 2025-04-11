@@ -18,7 +18,7 @@ During the autumn semester of 2022, I studied abroad at the [KTH Royal Institute
 
 ## Motivation
 
-Originally, I had planned to study in Stockholm during the fourth year of my bachelor's &mdash; after my [board year at AEGEE-Leiden](/about/board-year-at-aegee). However, the COVID-19 pandemic caused it to be cancelled. Thus, I tried again during my master's, this time with more success.
+Originally, I had planned to study in Stockholm during the fourth year of my bachelor's &mdash; after my [board year at AEGEE-Leiden](/career/board-year-at-aegee). However, the COVID-19 pandemic caused it to be cancelled. Thus, I tried again during my master's, this time with more success.
 
 Despite never having been to Sweden before, I was rather intrigued by the culture, the nature, and its high placement on various indicators such as the World Happiness Report and Human Development Index. I was therefore excited to explore the country, and did my best to learn some Swedish before the trip.
 

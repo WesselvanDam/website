@@ -10,7 +10,7 @@ params:
   bannerWide: on-website-wide.webp
   bannerTall: on-website-tall.webp
   bannerAlt: 'A photo of a knight chess piece on a chessboard'
-  bannerAbout: "One of my ongoing projects is to get better at photography and photo editing. When I got a fancy chess set from my parents, I practiced taking photos of it &mdash; this is one of the results. Getting better at chess is also on my list, but when my online play started to interfere with my productivity, I put it on hold. Autodiadacticism is great, but at times I have a hard time getting my priorities straight."
+  bannerAbout: "One of my ongoing projects is to get better at photography and photo editing. When I got a fancy chess set from my parents, I practiced taking photos of it &mdash; this is one of the results. Getting better at chess is also on my list, but when my online play started to interfere with my productivity, I put it on hold. Autodidacticism is great, but at times I have a hard time getting my priorities straight."
   startDate: null
   location: null
 ---

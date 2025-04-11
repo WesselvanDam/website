@@ -29,7 +29,7 @@ Inspired as I was, I soon decided that I wanted to create a card game of my own.
 
 ## Rules
 
-In Jeudalism, your goal is to create fiefdoms by creating chains of subsequently _serfs_, _knights_, _vassals_, and _monarchs_. Each card has a value, and some card combinations are worth more points than others. The player with the most points at the end of the game wins.
+In Jeudalism, your goal is to create fiefdoms by forming chains of subsequently _serfs_, _knights_, _vassals_, and _monarchs_. Each card has a value, and some card combinations are worth more points than others. The player with the most points at the end of the game wins.
 
 ### Setup
 
@@ -50,7 +50,7 @@ The player who most recently visited a farm goes first. A turn generally proceed
 
 #### Building a Chain
 
-Not every card can always be played, and not every card is allowed in a chain. Jeudalisme divides the cards into the following ranks:
+Not every card can always be played, and not every card is allowed in a chain. Jeudalism divides the cards into the following ranks:
 
 - **Serfs**: 2, 3, 4
 - **Knights**: 6, 8, 9, 10
@@ -63,7 +63,7 @@ The 5, 7, and Joker are [special action cards](#special-action-cards). The follo
 2.  You cannot play cards that are equal to or lower in rank than the highest card already in the chain, so you can never play an 8 or lower on top of an 8.
 3.  Only knights that are a _multiple_ of the value of a serf can be played on a serf, so on a 2, only a 6, 8, or 10 can be played; on a 3, a 6 or 9 can be played, and on a 4, only an 8 can be played.
 4.  Only vassals can be played on a knight, and they must match the color (red or black) of the **serf** in the chain, so on a chain starting with a serf of hearts or diamonds, only vassals of hearts or diamonds can be played.
-5.  Only the Ace that matches the suit (hearts, diamonds, etc.) of the **serf** in the chain can be played on a vassal, so the Ace of hearts can only be played on a chain that starts with a 2, 3 or 4 of hearts.
+5.  Only the monarch that matches the suit (hearts, diamonds, etc.) of the **serf** in the chain can be played on a vassal, so the Ace of hearts can only be played on a chain that starts with a 2, 3 or 4 of hearts.
 
 Some examples of valid chains:
 
@@ -88,7 +88,7 @@ At the end of the game, the values of all chains in your fiefdom are calculated 
 3.  If the serf and all knights are all red or all black, you get the **base value** again. This is the **color bonus**.
 4.  For each vassal in the chain, you get **5 points**.
 5.  If the serf and all vassals have the same suit (all hearts, all clubs, etc.), you get the **base value** again. This is the **suit bonus**.
-6.  For an Ace in the chain, you get **10 points**.
+6.  For a monarch in the chain, you get **10 points**.
 
 The example chains therefore have the following values:
 
@@ -109,12 +109,12 @@ The example chains therefore have the following values:
 
 - **4♡, 8♡, Q♢, K♡, A♡**:
   - Base value: 4
-  - Knights: 4 + 4
+  - Knights: 4
   - Vassals: 5 + 5
   - Ace: 10
   - Color bonus: 4
   - Suit bonus: 4
-  - **Total**: 4 + 4 + 4 + 5 + 5 + 10 + 4 + 4 = 32
+  - **Total**: 4 + 4 + 5 + 5 + 10 + 4 + 4 = 36
 
 ### Common Strategies
 

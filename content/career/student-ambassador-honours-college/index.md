@@ -14,7 +14,7 @@ params:
   location: Leiden, The Netherlands
 ---
 
-In the third year of my bachelor's degree, after almost having completed my own [Honours College track](/education/honours-college), I found myself on the other end of the programme as the student ambassador. There, I recruited new honours students and helped organise educational and social activities. I also helped migrate the programme's online materials to the learning environment BrightSpace.
+In the third year of my bachelor's degree, after almost having completed my own [Honours College track](/career/honours-college), I found myself on the other end of the programme as the student ambassador. There, I recruited new honours students and helped organise educational and social activities. I also helped migrate the programme's online materials to the learning environment BrightSpace.
 
 While still a relatively small job, I really liked the work environment, as it was really nice working together with the track's coordinator [Mionne Laman](https://www.universiteitleiden.nl/en/staffmembers/mionne-laman "Mionne's page on the Leiden University website") as well as other students involved in recruiting new first-years. It was also exciting to show up to lectures of first-year courses to promote the programme in front of packed lecture halls.
 
