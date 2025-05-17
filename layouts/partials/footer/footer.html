@@ -1,7 +1,20 @@
+{{ $diff := now.Sub (time "2000-01-29") }}
+{{ $years := div (div $diff.Hours 24) 365 }}
+
+
 <footer class="mx-auto px-pad-x py-16 bg-neutral-300 w-full">
+
   <div class="max-w-7xl mx-auto flex flex-col items-center justify-center w-full">
-    <div class="h-16 w-auto">{{ partial "components/logo.html" . }}</div>
-    <div class="flex flex-row gap-4 mt-8 items-start text-neutral-600 *:hover:text-neutral-800 *:transition *:duration-300">
+    <img src="/images/wessel-van-dam-small.webp" alt="Wessel van Dam" class="rounded-full mb-4 object-cover" width="96" height="96" />
+    <h2 class="text-xl font-semibold mb-4">About me</h2>
+    <p class="text-neutral-700 text-base max-w-xl md:text-center text-pretty mb-8">
+      I'm Wessel van Dam, a {{ math.Floor $years }}-year-old who keeps himself busy with all kinds of projects. Typically, these involve some kind of technology, such as developing apps and websites, working with Adobe's creative software, DJ'ing and some occasional photography. Check out my experience and thoughts on this website, and reach out if there's something you want to discuss :) 
+    </p>
+    {{/*  <div class="h-16 w-auto">{{ partial "components/logo.html" . }}</div>  */}}
+    <div class="flex flex-row gap-4 items-start text-neutral-600 *:hover:text-neutral-800 *:transition *:duration-300">
+      <a href="mailto:wessel@wesselvandam.nl" title="Send me an email">
+        {{ partial "utils/icons.html" (dict "type" "mail") }}
+      </a>
       <a href="https://github.com/WesselvanDam" title="My GitHub profile">
         {{ partial "utils/icons.html" (dict "type" "github") }}
       </a>

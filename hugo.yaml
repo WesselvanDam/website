@@ -9,6 +9,16 @@ params:
 
 sectionPagesMenu: "main"
 
+related:
+  includeNewer: true
+  indices:
+  - applyFilter: false
+    name: keywords
+    type: basic
+    weight: 100
+  threshold: 80
+  toLower: false
+
 permalinks:
   posts: "/:year/:month/:day/:title/"
 

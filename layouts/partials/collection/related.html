@@ -1,0 +1,23 @@
+{{ $markdowns := dict
+  "content" "markdown-content"
+  "career" "markdown-career"
+  "portfolio" "markdown-portfolio"
+  "thoughts" "markdown-thoughts"
+}}
+{{ $markdown := index $markdowns .Section }}
+
+{{ $related := .Site.RegularPages.Related . | first 5 }} {{ if $related }}
+
+<section class="sm:px-pad-x pb-8">
+  <div
+    class="bg-neutral-100/80 shadow-xl rounded-xl flex flex-col items-center gap-8 mx-auto w-full py-8 px-(--p) max-w-[calc(2*var(--p)+65ch)] [--p:--spacing(4)] sm:[--p:--spacing(8)] md:[--p:--spacing(12)] lg:[--p:--spacing(16)] ">
+    <div class="w-full max-w-prose markdown {{ $markdown }}">
+      <h2>Related posts</h2>
+    </div>
+    <div
+      class="w-full flex flex-col gap-8 *:hover:scale-102 *:transition-transform *:duration-300">
+      {{ range $related }} {{ partial "cards/basic.html" . }} {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

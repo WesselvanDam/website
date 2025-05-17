@@ -1,17 +1,27 @@
-<a href="{{ .RelPermalink }}" class="h-full flex flex-col md:max-lg:flex-row md:max-lg:*:w-1/2 gap-4 group pb-4" aria-label="{{ .Title }}">
-  <div class="w-full rounded-xl shadow-lg aspect-[16/9] overflow-hidden place-self-start">
-    {{ with partial "utils/banner.html" . }}
-      <img src="{{ .srcWide }}" alt="{{ .alt }}" class="object-cover" width="{{ .width }}px" height="{{ .height }}px" >
-    {{ else }}
-      {{ partial "utils/gradient.html" . }}
-    {{ end }}
-  </div>
-  <span class="flex flex-col gap-4 max-lg:*:data-title:text-xl max-lg:*:data-summary:text-base px-2 md:max-lg:px-0">
-    <div class="flex justify-between w-full items-baseline">
-      {{ partial "components/post/section-badge.html" . }}
-      {{ partial "components/post/date.html" . }}
+<a
+  href="{{ .RelPermalink }}"
+  class="@container"
+  aria-label="{{ .Title }}">
+  <div class="flex flex-col @md:flex-row @md:*:flex-1 gap-4 pb-4">
+    <div
+      class="w-full rounded-xl shadow-lg aspect-[16/9] overflow-hidden place-self-start">
+      {{ with partial "utils/banner.html" . }}
+      <img
+        src="{{ .srcWide }}"
+        alt="{{ .alt }}"
+        class="object-cover"
+        width="{{ .width }}px"
+        height="{{ .height }}px" />
+      {{ else }} {{ partial "utils/gradient.html" . }} {{ end }}
     </div>
-    {{ partial "components/post/title.html" . }}
-    {{ partial "components/post/summary.html" . }}
-  </span>
+    <span
+      class="flex flex-col gap-4 @md:*:data-title:text-xl @md:*:data-summary:text-base px-2 @md:px-0">
+      <div class="flex justify-between w-full items-baseline">
+        {{ partial "components/post/section-badge.html" . }} {{ partial
+        "components/post/date.html" . }}
+      </div>
+      {{ partial "components/post/title.html" . }} {{ partial
+      "components/post/summary.html" . }}
+    </span>
+  </div>
 </a>

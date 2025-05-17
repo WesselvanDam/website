@@ -21,7 +21,7 @@
 {{ $secondaryTag := index $secondaryTags .Section }}
 
 <article class="{{ $markdown }} mx-auto sm:px-pad-x lg:px-0 lg:w-min -mt-24 lg:-mt-36 xl:-mt-48 flex flex-col items-center  scroll-smooth"> 
-  <div class="bg-neutral-100/80 backdrop-blur-lg lg:shadow-xl mb-8 px-4 py-8 sm:p-8 md:p-12 lg:p-16 rounded-xl">
+  <div class="bg-neutral-100/80 backdrop-blur-lg shadow-xl mb-8 px-4 py-8 sm:p-8 md:p-12 lg:p-16 rounded-xl">
     <div class="w-full max-w-prose lg:w-max">
       <span class="font-semibold flex flex-wrap lg:min-w-prose">
         {{ $combined := slice .Section | append .Keywords }}
