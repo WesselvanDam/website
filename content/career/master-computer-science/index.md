@@ -14,7 +14,7 @@ params:
   location: Leiden, The Netherlands
 ---
 
-After receiving my [bachelor's degree](/education/bachelor), I continued my studies with the Artificial Intelligence track of Leiden University's Computer Science program. While typically seen as a way to specialise, I personally reflect on this pursuit as broadening my horizon due to my background in astronomy.
+After receiving my [bachelor's degree](/career/bachelor), I continued my studies with the Artificial Intelligence track of Leiden University's Computer Science program. While typically seen as a way to specialise, I personally reflect on this pursuit as broadening my horizon due to my background in astronomy.
 
 ## Why Computer Science?
 
@@ -22,6 +22,6 @@ I was glad for being able to enroll without the need of a pre-master program. Th
 
 ## Going abroad and writing a thesis
 
-During the first year, I applied for an exchange in the autumn semester of my second year. I had already tried to do such a semester abroad during my bachelor's, but it was cancelled due to the pandemic. Just like then, this second attempt I aimed to go to Stockholm, Sweden. More on that amazing experience can be read in the post about [my exchange](/education/exchange). While the courses I attended there were not necessarily AI-related, I thoroughly enjoyed them and learned a great deal.
+During the first year, I applied for an exchange in the autumn semester of my second year. I had already tried to do such a semester abroad during my bachelor's, but it was cancelled due to the pandemic. Just like then, this second attempt I aimed to go to Stockholm, Sweden. More on that amazing experience can be read in the post about [my exchange](/career/exchange-in-stockholm). While the courses I attended there were not necessarily AI-related, I thoroughly enjoyed them and learned a great deal.
 
 Once back home in Leiden, my master's thesis was the only component remaining for my degree. Wanting some experience outside of academia, I decided to do an internship at [Koppert](https://www.koppert.com "Koppert website"), a company that produces biological solutions for agriculture. The project I worked on was aimed at improving the data quality of their pest monitoring system, and the thesis I wrote about it marked the end of my studies at Leiden University. While I have ambivalent feelings about the program, I do believe that the entire process has enabled some important personal and professional growth in various ways.

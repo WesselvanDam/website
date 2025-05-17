@@ -18,4 +18,4 @@ In the third year of my bachelor's degree, after almost having completed my own 
 
 While still a relatively small job, I really liked the work environment, as it was really nice working together with the track's coordinator [Mionne Laman](https://www.universiteitleiden.nl/en/staffmembers/mionne-laman "Mionne's page on the Leiden University website") as well as other students involved in recruiting new first-years. It was also exciting to show up to lectures of first-year courses to promote the programme in front of packed lecture halls.
 
-After two years, I had to say goodbye as I was no longer a bachelor student, but I continued my involvement with Honours education as the [Assessor of the Honours Academy](/experience/assessor-honours-academy), the institute that oversees all Honours education at Leiden University.
+After two years, I had to say goodbye as I was no longer a bachelor student, but I continued my involvement with Honours education as the [Assessor of the Honours Academy](/career/assessor-honours-academy), the institute that oversees all Honours education at Leiden University.

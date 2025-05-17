@@ -9,12 +9,12 @@ params:
   bannerWide: p-j-veth-building-wide.webp
   bannerTall: p-j-veth-building-tall.webp
   bannerAlt: The P.J. Veth building in Leiden
-  bannerAbout: "My days at the office are spent in the P.J. Veth building of Leiden University. The department I work for moved here from the Gravensteen building (see my [student assistant](/career/student-fb) page). Image courtesy of [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2018-11-24_PJ_Veth-gebouw.jpg)."
+  bannerAbout: "My days at the office are spent in the P.J. Veth building of Leiden University. The department I work for moved here from the Gravensteen building (see my [student assistant](/career/student-assistant-fb/) page). Image courtesy of [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2018-11-24_PJ_Veth-gebouw.jpg)."
   startDate: 2024-04-15
   location: null
 ---
 
-Landing a job at the Functional Application Management department ('Functioneel Beheer' in Dutch) of Leiden University was a natural progression after my time as a [student assistant](/career/student-fb) there. I had been working there for a little over a year when I graduated from my [master's program](/career/master-computer-science). The department was looking for someone to manage the student portal, and encouraged me to apply. 
+Landing a job at the Functional Application Management department ('Functioneel Beheer' in Dutch) of Leiden University was a natural progression after my time as a [student assistant](/career/student-assistant-fb/) there. I had been working there for a little over a year when I graduated from my [master's program](/career/master-computer-science). The department was looking for someone to manage the student portal, and encouraged me to apply. 
 
 Deciding to stay at the university was an attractive option. I had enjoyed my time as a student assistant, as I could get along well with my colleagues and the work was interesting enough. The commute was short, I could work the majority of my hours from home, and it was possible to work just three days a week instead of the full-time position they were offering. My preference for part-time work came from wanting to spend more time on my hobbies and personal projects, such as this website and the [Thank You Token](/portfolio/thank-you-token) project, which I had been putting on hold during my studies.
 
