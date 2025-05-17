@@ -65,7 +65,7 @@
   h3::before,
   h4::before,
   h5::before,
-  #about-the-image:before {
+  div#about-the-banner:before {
     display: block;
     content:" ";
     margin-top: calc(var(--spacing) * -32);

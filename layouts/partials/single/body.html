@@ -47,10 +47,12 @@
       <div class="markdown pt-12 first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:mt-1.5 first-letter:leading-[80%] first-letter:float-left">
         {{ .Content}}
         {{ if .Params.bannerAbout }}
-          <blockquote id="about-the-banner" class="text-pretty">
-            <strong>About the image:</strong><br>
-            {{ .Params.bannerAbout | markdownify }}
-          </blockquote>
+          <div id="about-the-banner">
+            <blockquote class="text-pretty">
+              <strong>About the image:</strong><br>
+              {{ .Params.bannerAbout | markdownify }}
+            </blockquote>
+          </div>
         {{ end }}
       </div>
     </div>
