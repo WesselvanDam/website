@@ -2,5 +2,9 @@
   {{ if .Params.startDate }}
     {{ (time.Format "Jan 2006" .Params.startDate) }} ‧ 
   {{ end }}
-  {{ .Date.Format "Jan 2006" }}
+  {{ if .Params.ongoing }}
+    Present
+  {{ else }}
+    {{ (time.Format "Jan 2006" .Date) }}
+  {{ end }}
 </span>

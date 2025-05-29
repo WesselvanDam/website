@@ -11,6 +11,7 @@ params:
   bannerAlt: The P.J. Veth building in Leiden
   bannerAbout: "My days at the office are spent in the P.J. Veth building of Leiden University. The department I work for moved here from the Gravensteen building (see my [student assistant](/career/student-assistant-fb/) page). Image courtesy of [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2018-11-24_PJ_Veth-gebouw.jpg)."
   startDate: 2024-04-15
+  ongoing: true
   location: null
 ---
 
