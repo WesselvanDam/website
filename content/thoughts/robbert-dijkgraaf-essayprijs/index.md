@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 'An essay on the future of AI'
+title: 'On the future of AI'
 slug: 'robbert-dijkgraaf-essayprijs'
 date: '2024-10-09'
 publishDate: '2025-03-05'

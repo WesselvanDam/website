@@ -32,6 +32,7 @@
     * Podcast
     * Book
 
+# Image sizes
 
-notepad:
-Ik ben ervan overtuigd dat mijn kennis, ervaring en enthousiasme een waardevolle aanvulling zullen zijn voor Team ATIE. Graag zou ik in een persoonlijk gesprek mijn motivatie verder toelichten en e
+* Tall: 3:4 / 1200x1600
+* Wide: 16:9 / 1920x1080
