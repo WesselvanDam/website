@@ -35,6 +35,7 @@ I find many concepts of liquid democracy quite charming. For one, the proxy revo
 
 Even without doing a deep-dive into this theory, it becomes clear quickly that it may not be a perfect starting point for a new system, but it surely is entertaining to think about the opportunities, consequences and logistics that come with it. The Netherlands won't change its system anytime soon, so I expect I'll be once again voting for one out of roughly twenty parties to represent me for the upcoming four years this October/Novembeer, but perhaps we'll implement some improvements on a larger timescale. Until then, having governments fall every two years instead of finishing their terms is the closest I'll get to a more dynamic representation.
 
+**P.S.:** a day after posting this, Pieter Derks had [a nice rant](https://youtu.be/jWBuexEdZ_M?si=ZRDiSrB-tBfsaq_-) on Dutch radio which excellently reflects my exasparation regarding topical election hijacking. I highly recommend giving it a listen!
 
 
 [^1]: It appears that reading party programmes wasn't even an option for this polling question, although those might be incorporated in the category "party's campaign activities".

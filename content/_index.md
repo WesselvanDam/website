@@ -12,6 +12,6 @@ params:
     - portfolio/jeudalism
     - portfolio/my-website
     - content/philosophize-this
-    - career/functional-application-manager
-    - career/master-computer-science
+    - thoughts/elections
+    - thoughts/the-button-thought-experiment
 ---
