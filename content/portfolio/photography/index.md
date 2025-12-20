@@ -19,6 +19,63 @@ With a camera in hand, I look at the world quite differently. While photography 
 
 Occassionally, I edit photos using Adobe Lightroom. The original lighting doesn't always yield the result I am aiming for, which may be due to my placid disposition. Instead, I prefer vibrant colors that some may consider too artificial. Nevertheless, below you can find some of my favorite shots &mdash; click on any of them to view it in high resolution. I'll add some more recent ones soon!
 
+## 2025
+
+{{< figure
+  src="compressed/2025-11-14-lake-bled.webp"
+  link="originals/2025-11-14-lake-bled.jpg"
+  alt="A view of Lake Bled in Slovenia during autumn."
+  caption="A view of Lake Bled in Slovenia during autumn. November 14, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-12-miramare-castle.webp"
+  link="originals/2025-11-12-miramare-castle.jpg"
+  alt="Miramare Castle near Trieste, Italy."
+  caption="The facade of Miramare Castle near Trieste, Italy. November 12, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-11-trieste-flower.webp"
+  link="originals/2025-11-11-trieste-flower.jpg"
+  alt="A heavily edited photo of a flower sprouting from an ancient wall in Trieste, Italy."
+  caption="A heavily edited photo of a flower sprouting from an ancient wall in Trieste, Italy. November 11, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-10-verona-building.webp"
+  link="originals/2025-11-10-verona-building.jpg"
+  alt="The Parrochia di San Giorgio in Braida church in Verona, Italy."
+  caption="The Parrochia di San Giorgio in Braida church in Verona, Italy. November 10, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-10-verona-arena.webp"
+  link="originals/2025-11-10-verona-arena.jpg"
+  alt="A portrait photo with a distant moon on a clear blue sky."
+  caption="A portrait photo taken from inside the Arena di Verona, Italy. November 10, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-09-bergamo-churches.webp"
+  link="originals/2025-11-09-bergamo-churches.jpg"
+  alt="The Basilica di Santa Maria Maggiore in Bergamo, Italy."
+  caption="The Basilica di Santa Maria Maggiore in Bergamo, Italy. November 9, 2025"
+  target="_blank"
+>}}
+
+{{< figure
+  src="compressed/2025-11-08-bergamo-chimney.webp"
+  link="originals/2025-11-08-bergamo-chimney.jpg"
+  alt="A view of the Città Alta in Bergamo, Italy, with a chimney in the foreground."
+  caption="A view of the Città Alta in Bergamo, Italy. November 8, 2025"
+  target="_blank"
+>}}
 
 ## 2023 
 
