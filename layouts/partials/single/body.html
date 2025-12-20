@@ -20,10 +20,10 @@
 {{ $primaryTag := index $primaryTags .Section }}
 {{ $secondaryTag := index $secondaryTags .Section }}
 
-<article class="{{ $markdown }} mx-auto sm:px-pad-x lg:px-0 lg:w-min -mt-24 lg:-mt-36 xl:-mt-48 flex flex-col items-center  scroll-smooth"> 
-  <div class="bg-neutral-100/80 backdrop-blur-lg shadow-xl mb-8 px-4 py-8 sm:p-8 md:p-12 lg:p-16 rounded-xl">
-    <div class="w-full max-w-prose lg:w-max">
-      <span class="font-semibold flex flex-wrap lg:min-w-prose">
+<article class="{{ $markdown }} mx-auto sm:px-pad-x lg:px-0 lg:w-fit -mt-24 lg:-mt-36 xl:-mt-48 flex flex-col scroll-smooth"> 
+  <div class="bg-neutral-100/80 backdrop-blur-lg shadow-xl px-4 pt-8 sm:px-8 sm:pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16 rounded-t-xl">
+    <div class="w-full max-w-prose">
+      <span class="font-semibold flex flex-wrap">
         {{ $combined := slice .Section | append .Keywords }}
         <p class="text-sm sm:text-base text-pretty">
           {{ range $index, $item := $combined }}
@@ -44,6 +44,10 @@
           By <strong>{{ .Site.Params.Author }}</strong> ‧ {{ .PublishDate.Format "January 2, 2006" }}
         </span>
       </div>
+    </div>
+  </div>
+  <div class="bg-neutral-100/92 shadow-xl mb-8 px-4 pb-8 sm:px-8 sm:pb-8 md:px-12 md:pb-12 lg:px-16 lg:pb-16 rounded-b-xl relative">
+    <div class="w-full max-w-prose">
       <div class="markdown pt-12 first-letter:text-5xl first-letter:font-bold first-letter:mr-2 first-letter:mt-1.5 first-letter:leading-[80%] first-letter:float-left">
         {{ .Content}}
         {{ if .Params.bannerAbout }}
