@@ -7,9 +7,9 @@ publishDate: '2025-12-21'
 summary: After some years of little reading activity, 2025 saw me pick up the pace again. 
 keywords: [Books, Review]
 params:
-  bannerWide:
-  bannerTall:
-  bannerAlt:
+  bannerWide: book-review-2025-collage-wide.webp
+  bannerTall: book-review-2025-collage-tall.webp
+  bannerAlt: A collage of the book covers of the ten books I review in this post.
   bannerAbout:
   startDate: 2025-01-01
   location: null
