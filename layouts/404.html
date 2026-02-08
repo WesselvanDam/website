@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="px-pad-x pt-32 pb-16 bg-neutral-200">
+  <div class="max-w-7xl mx-auto">
+    <div
+      class="bg-neutral-100/80 backdrop-blur-lg shadow-xl rounded-xl px-6 py-12 sm:px-10 sm:py-16 md:px-16 md:py-20 flex flex-col gap-6">
+      <p class="text-neutral-500 text-sm uppercase tracking-[0.2em]"
+        >Error 404</p
+      >
+      <h1 class="text-5xl sm:text-7xl font-display text-neutral-900 font-bold"
+        >Page not found</h1
+      >
+      <p class="text-lg sm:text-xl text-neutral-600 max-w-prose">
+        The page you are looking for does not exist or has been moved. Try
+        heading back home or explore the latest posts below.
+      </p>
+      <a
+        href="{{ .Site.Home.RelPermalink }}"
+        class="w-fit group flex h-10 items-center gap-2 rounded-full bg-neutral-200 pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-neutral-900 hover:pl-2 hover:text-neutral-200 text-neutral-900 no-underline active:bg-neutral-700">
+        <span
+          class="rounded-full bg-neutral-900 p-1 text-sm transition-colors duration-300 group-hover:bg-neutral-200">
+          <svg
+            stroke="currentColor"
+            fill="none"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="-translate-x-[200%] text-[0px] transition-all duration-300 group-hover:translate-x-0 group-hover:text-lg group-hover:text-neutral-900 group-active:-rotate-45"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </span>
+        <span>Back to home</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ $posts := slice }} {{ range first 3 (.Site.RegularPages.ByDate.Reverse) }} {{
+$posts = $posts | append .RelPermalink }} {{ end }} {{ partial
+"collection/collection.html" (dict "Context" . "Posts" $posts "ShowHeader"
+false) }} {{ end }}

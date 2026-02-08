@@ -1,17 +1,13 @@
-{{ $posts := .Posts }}
-{{ if ne (len .Posts) 0 }}
-  {{ $first := index $posts 0 }}
-  {{ with $.Context.Site.GetPage $first }}
-    {{ partial "components/header" . }}
-  {{ end }}
-  {{ $others := after 1 $posts }}
-  <section class="px-pad-x mx-auto inset-0 max-lg:pt-24 bg-neutral-100">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 py-16 space-y-8 *:hover:scale-102  *:transition-transform *:duration-300">
-      {{ range $others }}
-        {{ with $.Context.Site.GetPage . }}
-          {{ partial "cards/basic.html" . }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </section>
+{{ $posts := .Posts }} {{ $showHeader := default true .ShowHeader }} {{ if ne
+(len .Posts) 0 }} {{ if $showHeader }} {{ $first := index $posts 0 }} {{ with
+$.Context.Site.GetPage $first }} {{ partial "components/header" . }} {{ end }}
+{{ end }} {{ $items := $posts }} {{ if $showHeader }} {{ $items = after 1 $posts
+}} {{ end }}
+<section class="px-pad-x mx-auto inset-0 max-lg:pt-24 bg-neutral-100">
+  <div
+    class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 py-16 space-y-8 *:hover:scale-102 *:transition-transform *:duration-300">
+    {{ range $items }} {{ with $.Context.Site.GetPage . }} {{ partial
+    "cards/basic.html" . }} {{ end }} {{ end }}
+  </div>
+</section>
 {{ end }}
