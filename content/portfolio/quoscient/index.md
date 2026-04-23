@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 'Quoscient: an educational game'
 slug: 'quoscient'
 date: '2026-04-23'
