@@ -36,3 +36,9 @@
 
 * Tall: 3:4 / 1200x1600
 * Wide: 16:9 / 1920x1080
+
+# Serve locally:
+
+```hugo serve```
+
+```hugo serve --buildDrafts```

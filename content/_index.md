@@ -4,6 +4,7 @@ summary: "Welcome to Wessel's Website, where you can read about my projects, tho
 
 params:
   featured:
+    - portfolio/quoscient
     - content/books-of-2025
     - portfolio/thank-you-token
     - thoughts/masters-education
@@ -13,5 +14,4 @@ params:
     - portfolio/jeudalism
     - portfolio/my-website
     - content/philosophize-this
-    - thoughts/elections
 ---
